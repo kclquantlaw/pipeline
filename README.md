@@ -12,15 +12,13 @@ The steps of the pipeline are:
 - Undertake several offline data integrity routines against the generated components. 
 
 
+## Input XML files
+
 ## Output files
 
 Output formats are:
 
 
 
-#### 1. Input file 
-
-
-#### 2. XML Files
 
 
