@@ -4,8 +4,8 @@ This repository contains a Python, cross-Act, pipeline for parsing UK's legislat
 
 Sofia was used for producing the results of the following preprint publication:
 
-[1] Graphie: A network-based visual interface for UK's Primary Legislation
-    Evan Tzanis, Pierpaolo Vivo, Yanik-Pascal Förster, Luca Gamberi, Alessia Annibale
+[1] Graphie: A network-based visual interface for UK's Primary Legislation - 
+    Evan Tzanis, Pierpaolo Vivo, Yanik-Pascal Förster, Luca Gamberi, Alessia Annibale, 
     https://arxiv.org/abs/2210.02165
 
 The steps of the pipeline are:
