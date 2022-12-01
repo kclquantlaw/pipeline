@@ -17,7 +17,7 @@ The steps of the pipeline are:
          * contents(url): for each section of the Housing Act 2004, return one section's coresponded UK Legislation URI.  
          * singlesection(url): given one section's UK Legislation URI, return a populated memory instance of the Graphie model associated to that section.
         
-- Generate the housingact2004.json file. Serialize one section's (last cell in Sofia Pipeline.ipynb ) Graphie Object instance into a JSON file, structured by the following elements (consider section 194):  
+- Generate the housingact2004.json file. Serialize one section's (review last cell in Sofia Pipeline.ipynb ) Graphie Object instance into a JSON file, structured by the following elements (consider section 194):  
       
       * partNumber: "Part 6"
       * partTitle: "Other provisions about housing"
