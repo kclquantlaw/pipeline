@@ -13,8 +13,9 @@ The steps of the pipeline are:
 - Data Modeling, initialize the declared Graphie Object (file: Sofia Pipeline.ipynb). (Figure 3, section "Data Modelling" in [1])
 
 - Parser, using native beautifulsoup (https://www.crummy.com/software/BeautifulSoup/) methods parse Housing Act's 2004 full XML content (https://www.legislation.gov.uk/ukpga/2004/34/data.xml). The parsing is completed in two phases using the following methods contents(url) and singlesection(url).
-         contents(url): for each section of the Housing Act 2004, return one section's coresponded UK Legislation URI.  
-         singlesection(url): given one section's UK Legislation URI, return a populated memory instance of the Graphie model associated with that section.
+
+         * contents(url): for each section of the Housing Act 2004, return one section's coresponded UK Legislation URI.  
+         * singlesection(url): given one section's UK Legislation URI, return a populated memory instance of the Graphie model associated with that section.
         
 - Generate the housingact2004.json file. Serialize one section's (last cell in Sofia Pipeline.ipynb ) Graphie Object instance into a JSON file, structured by the following elements (consider section 194):  
       
