@@ -19,6 +19,11 @@ The steps of the pipeline are:
 Output formats are:
 
 
+## Other
+
+- Sofia is heurisitic in nature. Where very high levels of accuracy are required, Sofia's output should be manually checked.
+
+
 
 
 
