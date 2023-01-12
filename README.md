@@ -8,9 +8,9 @@ Sofia was used for producing the results of the following preprint publication:
     Evan Tzanis, Pierpaolo Vivo, Yanik-Pascal Förster, Luca Gamberi, Alessia Annibale, 
     https://arxiv.org/abs/2210.02165
 
-The steps of the pipeline are:
+The steps of the pipeline are (all included in Sofia Pipeline.ipynb):
 
-- Data Modeling, initialize the declared Graphie Object (file: Sofia Pipeline.ipynb). (Figure 3, section "Data Modelling" in [1])
+- Data Modeling, initialize the declared Graphie Object. (Figure 3, section "Data Modelling" in [1])
 
 - Parser, using native beautifulsoup (https://www.crummy.com/software/BeautifulSoup/) methods parse Housing Act's 2004 full XML content (https://www.legislation.gov.uk/ukpga/2004/34/data.xml). The parsing is completed in two phases using the following methods contents(url) and singlesection(url).
 
@@ -57,7 +57,7 @@ Each legislation page (either a whole item, or a part, or a section) on legislat
 
 * housingact2004.json: A "flat file" serliazing the full content (about all sections) of the Graphie Object after parsing Housing Act 2004's full XML file. 
 * outbound.json: A JSON file populating the network visualization (also including references to external Acts) on https://graphie.quantlaw.co.uk/network.html?v=1 . 
-* inbound.hson: A JSON file populating the inbound network references between Housing Act's 2004 sections on https://graphie.quantlaw.co.uk/weight.html.   
+* inbound.json: A JSON file populating the inbound network references between Housing Act's 2004 sections on https://graphie.quantlaw.co.uk/weight.html.   
 
 ## Other
 
