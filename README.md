@@ -65,6 +65,7 @@ Each legislation page (either a whole item, or a part, or a section) on legislat
 - Sofia is heurisitic in nature. Thus, as pointed above, Sofia's output should be manually checked.
 
 
+<a href="https://zenodo.org/badge/latestdoi/544607732"><img src="https://zenodo.org/badge/544607732.svg" alt="DOI"></a>
 
 
 
